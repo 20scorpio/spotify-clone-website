@@ -1,0 +1,44 @@
+.nav{
+    height: 68px;
+    width:100%;
+    background-color: black;
+    color: white;
+    text-transform: capitalize;
+    position: fixed;
+    top: 0px;
+    left:0px;
+    font-size: 13px;
+    font-weight:700;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.nav-items{
+    margin-left: 53%;
+}
+.item{
+    display:inline-flex;
+    justify-content:space-evenly;
+    padding: 27px 18px;
+}
+.logo{
+    position:fixed;
+    top:9px;
+    left:16%;
+}
+.banner{
+    height:500px;
+    width:100%;
+    background: linear-gradient(rgb(248, 64, 248),rgb(69, 69, 212));
+    margin-top: 68px;
+    margin-left:0px;
+}
+.boldtxt{
+    font-size:xx-large;
+    font-weight:900;
+    font-family: Arial, Helvetica, sans-serif;
+    /* color: white; */
+    margin-left: 40%;
+    margin-top:0px;
+}
+body{
+    margin:0px;
+}
