@@ -1,3 +1,6 @@
+body{
+    margin:0px;
+}
 .nav{
     height: 68px;
     width:100%;
@@ -19,7 +22,6 @@
     color: rgb(64, 215, 64);
     text-decoration:underline;
     transform: scale(1.2);
-    text-decoration-thickness: 2px;
     text-underline-offset: 4px;
 
 }
@@ -36,7 +38,7 @@
 .banner{
     height:500px;
     width:100%;
-    background-image: url(./logo/bubbles-dktp.svg),linear-gradient(rgb(248, 64, 248),rgb(69, 69, 212));
+    background-image: url(./logo/bubbles-dktp.svg),linear-gradient(rgb(178, 58, 178),rgb(69, 69, 212));
     margin-top: 0px;
     margin-left:0px;
     overflow:hidden;
@@ -71,23 +73,80 @@ button:hover{
 
 }
 .ques{
-    display: flex;
+    display: block;
     justify-content: center;
-    align-items: center;
+    text-align: center;
     padding-top:22px;
     font-weight:bolder;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 .lists{
     list-style-type: none;
-    margin-left:13%;
+    margin-left:10%;
 }
 .sub{
     display: inline-block;
     justify-content: space-evenly;
-    margin: 55px;
-
+    margin-left: 65px;
 }
-body{
+.sublogo{
+    display: block;
+    margin:20px 30px;
+    margin-bottom: 25px;
+}
+.sub-text{
+    display: block;
+}
+.sub-t-head{
+    display: block;
+    font-weight: bolder;
+    justify-content: center;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     margin:0px;
 }
+.sub-t-p{
+    display: block;
+    justify-content: center;
+    text-align: center;
+    font-size: 15px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.cont-2{
+    height:500px;
+}
+.cont-3{
+    height:400px;
+    width:100%;
+    border: 0px;
+    background-image:linear-gradient(rgb(178, 58, 178),rgb(69, 69, 212));
+    margin-top: 0px;
+    margin-left:0px;
+    overflow:hidden;
+}
+.banner-ques{
+    display: block;
+    justify-content: center;
+    text-align: center;
+    padding-top:130px;
+    font-weight: bolder;
+    color: white;
+    font-size: 40px;
+    line-height: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style:normal;
+}
+.cont-4{
+    height:500px;
+    width: 100%;
+}
+.questions{
+    display:block;
+    justify-content: center;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 40px;
+    margin-top:75px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
